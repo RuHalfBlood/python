@@ -98,7 +98,7 @@ public class ModelGun extends ModelBase {
    private static float lightmapLastX;
    private static float lightmapLastY;
    private static boolean optifineBreak = false;
-
+   public int test;
 
    public ModelGun() {
       this.animationType = EnumAnimationType.NONE;

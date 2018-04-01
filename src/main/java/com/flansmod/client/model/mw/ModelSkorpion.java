@@ -1,0 +1,177 @@
+/*
+ * Decompiled with CFR 0_123.
+ * 
+ * Could not load the following classes:
+ *  net.minecraft.client.model.ModelBase
+ *  net.minecraft.client.model.ModelRenderer
+ */
+package com.flansmod.client.model.mw;
+
+import com.flansmod.client.model.EnumAnimationType;
+import com.flansmod.client.model.ModelGun;
+import com.flansmod.client.tmt.ModelRendererTurbo;
+import com.flansmod.common.vector.Vector3f;
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+
+public class ModelSkorpion
+extends ModelGun {
+    int textureX = 64;
+    int textureY = 64;
+
+    public ModelSkorpion() {
+        this.gunModel = new ModelRendererTurbo[29];
+        this.gunModel[0] = new ModelRendererTurbo(this, 1, 1, this.textureX, this.textureY);
+        this.gunModel[1] = new ModelRendererTurbo(this, 25, 1, this.textureX, this.textureY);
+        this.gunModel[2] = new ModelRendererTurbo(this, 33, 1, this.textureX, this.textureY);
+        this.gunModel[3] = new ModelRendererTurbo(this, 49, 1, this.textureX, this.textureY);
+        this.gunModel[4] = new ModelRendererTurbo(this, 1, 9, this.textureX, this.textureY);
+        this.gunModel[5] = new ModelRendererTurbo(this, 9, 9, this.textureX, this.textureY);
+        this.gunModel[6] = new ModelRendererTurbo(this, 17, 9, this.textureX, this.textureY);
+        this.gunModel[7] = new ModelRendererTurbo(this, 25, 9, this.textureX, this.textureY);
+        this.gunModel[8] = new ModelRendererTurbo(this, 1, 17, this.textureX, this.textureY);
+        this.gunModel[9] = new ModelRendererTurbo(this, 9, 17, this.textureX, this.textureY);
+        this.gunModel[10] = new ModelRendererTurbo(this, 17, 17, this.textureX, this.textureY);
+        this.gunModel[11] = new ModelRendererTurbo(this, 25, 17, this.textureX, this.textureY);
+        this.gunModel[12] = new ModelRendererTurbo(this, 33, 17, this.textureX, this.textureY);
+        this.gunModel[13] = new ModelRendererTurbo(this, 41, 17, this.textureX, this.textureY);
+        this.gunModel[14] = new ModelRendererTurbo(this, 49, 17, this.textureX, this.textureY);
+        this.gunModel[15] = new ModelRendererTurbo(this, 57, 17, this.textureX, this.textureY);
+        this.gunModel[16] = new ModelRendererTurbo(this, 1, 25, this.textureX, this.textureY);
+        this.gunModel[17] = new ModelRendererTurbo(this, 9, 25, this.textureX, this.textureY);
+        this.gunModel[18] = new ModelRendererTurbo(this, 17, 25, this.textureX, this.textureY);
+        this.gunModel[19] = new ModelRendererTurbo(this, 25, 25, this.textureX, this.textureY);
+        this.gunModel[20] = new ModelRendererTurbo(this, 49, 33, this.textureX, this.textureY);
+        this.gunModel[21] = new ModelRendererTurbo(this, 1, 41, this.textureX, this.textureY);
+        this.gunModel[22] = new ModelRendererTurbo(this, 57, 33, this.textureX, this.textureY);
+        this.gunModel[23] = new ModelRendererTurbo(this, 17, 41, this.textureX, this.textureY);
+        this.gunModel[24] = new ModelRendererTurbo(this, 25, 41, this.textureX, this.textureY);
+        this.gunModel[25] = new ModelRendererTurbo(this, 33, 41, this.textureX, this.textureY);
+        this.gunModel[26] = new ModelRendererTurbo(this, 41, 41, this.textureX, this.textureY);
+        this.gunModel[27] = new ModelRendererTurbo(this, 49, 41, this.textureX, this.textureY);
+        this.gunModel[28] = new ModelRendererTurbo(this, 57, 41, this.textureX, this.textureY);
+        this.gunModel[0].addShapeBox(0.0f, 0.0f, 0.0f, 7, 1, 1, 0.0f, 0.0f, 0.0f, 0.0f, -0.1f, 0.0f, 0.0f, -0.1f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.3f, 0.0f, -0.1f, 0.3f, 0.0f, -0.1f, 0.3f, 0.0f, 0.0f, 0.3f, 0.0f);
+        this.gunModel[0].setRotationPoint(-0.4f, -3.6f, -0.5f);
+        this.gunModel[1].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, 0.0f, 0.0f, -0.3f, -0.5f, 0.0f, -0.3f, -0.5f, 0.0f, -0.3f, 0.0f, 0.0f, -0.3f, 0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, 0.3f, 0.0f);
+        this.gunModel[1].setRotationPoint(6.2f, -3.6f, -0.5f);
+        this.gunModel[2].addShapeBox(0.0f, 0.0f, 0.0f, 3, 1, 1, 0.0f, -0.6f, -0.1f, -0.05f, 0.7f, -0.1f, -0.05f, 0.7f, -0.1f, -0.05f, -0.6f, -0.1f, -0.05f, -0.6f, -0.1f, -0.05f, -0.1f, -0.5f, -0.05f, -0.1f, -0.5f, -0.05f, -0.6f, -0.1f, -0.05f);
+        this.gunModel[2].setRotationPoint(2.4f, -2.4f, -0.5f);
+        this.gunModel[3].addShapeBox(0.0f, 0.0f, 0.0f, 4, 1, 1, 0.0f, -0.4f, -0.1f, -0.05f, 0.0f, -0.1f, -0.05f, 0.0f, -0.1f, -0.05f, -0.4f, -0.1f, -0.05f, -0.4f, -0.1f, -0.05f, 0.0f, -0.1f, -0.05f, 0.0f, -0.1f, -0.05f, -0.4f, -0.1f, -0.05f);
+        this.gunModel[3].setRotationPoint(-1.0f, -2.4f, -0.5f);
+        this.gunModel[4].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, 0.05f, 0.05f, -0.4f, 0.05f, 0.05f, -0.4f, 0.05f, 0.05f, -0.4f, 0.05f, 0.05f, -0.4f, 0.3f, 0.05f, -0.4f, 0.3f, 0.05f, -0.4f, 0.3f, 0.05f, -0.4f, 0.3f, 0.05f);
+        this.gunModel[4].setRotationPoint(-1.0f, -3.6f, -0.5f);
+        this.gunModel[5].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, -0.45f, -0.05f, -0.25f, -0.3f, -0.05f, -0.25f, -0.3f, -0.05f, -0.4f, -0.45f, -0.05f, -0.4f, -0.35f, -0.05f, -0.25f, -0.35f, -0.05f, -0.25f, -0.35f, -0.05f, -0.4f, -0.35f, -0.05f);
+        this.gunModel[5].setRotationPoint(-1.35f, -2.15f, -0.5f);
+        this.gunModel[6].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f, 0.0f, -0.05f, -0.05f);
+        this.gunModel[6].setRotationPoint(6.5f, -3.35f, -0.5f);
+        this.gunModel[7].addShapeBox(0.0f, 0.0f, 0.0f, 3, 1, 1, 0.0f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f, 0.0f, -0.3f, -0.3f);
+        this.gunModel[7].setRotationPoint(6.1f, -3.35f, -0.5f);
+        this.gunModel[8].addShapeBox(0.0f, 0.0f, 0.0f, 2, 1, 1, 0.0f, -0.1f, -0.1f, 0.05f, -0.1f, -0.1f, 0.05f, -0.1f, -0.1f, 0.05f, -0.1f, -0.1f, 0.05f, -0.1f, 0.2f, 0.05f, -0.1f, 0.2f, 0.05f, -0.1f, 0.2f, 0.05f, -0.1f, 0.2f, 0.05f);
+        this.gunModel[8].setRotationPoint(-0.65f, -1.6f, -0.5f);
+        this.gunModel[9].addShapeBox(0.0f, 0.0f, 0.0f, 2, 1, 1, 0.0f, -0.1f, -0.1f, 0.05f, -0.1f, -0.1f, 0.05f, -0.1f, -0.1f, 0.05f, -0.1f, -0.1f, 0.05f, 0.3f, -0.1f, 0.05f, -0.6f, -0.1f, 0.05f, -0.6f, -0.1f, 0.05f, 0.3f, -0.1f, 0.05f);
+        this.gunModel[9].setRotationPoint(-0.65f, -0.5f, -0.5f);
+        this.gunModel[10].addShapeBox(0.0f, 0.0f, 0.0f, 2, 1, 1, 0.0f, -0.05f, -0.1f, 0.05f, -0.25f, -0.1f, 0.05f, -0.25f, -0.1f, 0.05f, -0.05f, -0.1f, 0.05f, 0.2f, 0.65f, 0.05f, -0.3f, 0.65f, 0.05f, -0.3f, 0.65f, 0.05f, 0.2f, 0.65f, 0.05f);
+        this.gunModel[10].setRotationPoint(-1.0f, 0.3f, -0.5f);
+        this.gunModel[11].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f, -0.2f, -0.4f, 0.05f);
+        this.gunModel[11].setRotationPoint(-0.6f, -2.9f, -0.5f);
+        this.gunModel[12].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, -0.25f, 0.05f, -0.3f, -0.25f, 0.05f, -0.3f, -0.25f, 0.05f, -0.3f, -0.25f, 0.05f, -0.3f, -0.5f, 0.05f, -0.3f, -0.15f, 0.05f, -0.3f, -0.15f, 0.05f, -0.3f, -0.5f, 0.05f);
+        this.gunModel[12].setRotationPoint(-1.25f, -1.75f, -0.5f);
+        this.gunModel[13].addShapeBox(0.0f, 0.0f, 0.0f, 2, 1, 1, 0.0f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f, -0.1f, -0.45f, -0.3f);
+        this.gunModel[13].setRotationPoint(0.35f, -0.8f, -0.5f);
+        this.gunModel[14].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, -0.45f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.45f, -0.3f);
+        this.gunModel[14].setRotationPoint(1.95f, -0.8f, -0.5f);
+        this.gunModel[15].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, -0.45f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.45f, -0.3f);
+        this.gunModel[15].setRotationPoint(2.08f, -0.65f, -0.5f);
+        this.gunModel[15].rotateAngleZ = 0.6632251f;
+        this.gunModel[16].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, -0.45f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.45f, -0.3f);
+        this.gunModel[16].setRotationPoint(2.25f, -0.7f, -0.5f);
+        this.gunModel[16].rotateAngleZ = 1.2042772f;
+        this.gunModel[17].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, -0.45f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.45f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.6f, -0.3f, -0.3f, -0.45f, -0.3f);
+        this.gunModel[17].setRotationPoint(2.43f, -0.76f, -0.5f);
+        this.gunModel[17].rotateAngleZ = 1.8675023f;
+        this.gunModel[18].addShapeBox(-0.2f, 0.2f, 0.0f, 1, 1, 1, 0.0f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f, 0.0f, -0.4f, -0.4f);
+        this.gunModel[18].setRotationPoint(1.1f, -0.8f, -0.5f);
+        this.gunModel[18].rotateAngleZ = 1.8849556f;
+        this.gunModel[19].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f, -0.3f, -0.3f, -0.25f);
+        this.gunModel[19].setRotationPoint(2.4f, -1.1f, -0.5f);
+        this.gunModel[19].rotateAngleZ = 1.553343f;
+        this.gunModel[20].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f, -0.25f, -0.25f, 0.15f);
+        this.gunModel[20].setRotationPoint(5.0f, -3.6f, -0.5f);
+        this.gunModel[21].addShapeBox(0.0f, 0.0f, 0.0f, 4, 1, 1, 0.0f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f, -0.25f, -0.35f, 0.02f);
+        this.gunModel[21].setRotationPoint(2.0f, -3.6f, -0.5f);
+        this.gunModel[22].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f, -0.35f, -0.35f, 0.0f);
+        this.gunModel[22].setRotationPoint(2.5f, -2.6f, -0.5f);
+        this.gunModel[23].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f);
+        this.gunModel[23].setRotationPoint(-0.6f, -3.6f, -0.5f);
+        this.gunModel[24].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f);
+        this.gunModel[24].setRotationPoint(-0.1f, -3.6f, -0.5f);
+        this.gunModel[25].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, -0.05f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f, -0.4f, 0.3f, 0.01f);
+        this.gunModel[25].setRotationPoint(0.4f, -3.6f, -0.5f);
+        this.gunModel[26].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f, 0.2f, -0.3f, -0.23f);
+        this.gunModel[26].setRotationPoint(4.0f, -3.95f, -0.5f);
+        this.gunModel[27].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, -0.45f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.45f, 0.05f, -0.4f, -0.45f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.45f, 0.05f);
+        this.gunModel[27].setRotationPoint(-1.2f, -3.7f, -0.5f);
+        this.gunModel[28].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.4f, -0.45f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.45f, 0.05f, -0.4f, -0.45f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.35f, 0.05f, -0.4f, -0.45f, 0.05f);
+        this.gunModel[28].setRotationPoint(-1.2f, -3.0f, -0.5f);
+        this.defaultScopeModel = new ModelRendererTurbo[10];
+        this.defaultScopeModel[0] = new ModelRendererTurbo(this, 33, 25, this.textureX, this.textureY);
+        this.defaultScopeModel[1] = new ModelRendererTurbo(this, 41, 25, this.textureX, this.textureY);
+        this.defaultScopeModel[2] = new ModelRendererTurbo(this, 49, 25, this.textureX, this.textureY);
+        this.defaultScopeModel[3] = new ModelRendererTurbo(this, 57, 25, this.textureX, this.textureY);
+        this.defaultScopeModel[4] = new ModelRendererTurbo(this, 1, 33, this.textureX, this.textureY);
+        this.defaultScopeModel[5] = new ModelRendererTurbo(this, 9, 33, this.textureX, this.textureY);
+        this.defaultScopeModel[6] = new ModelRendererTurbo(this, 17, 33, this.textureX, this.textureY);
+        this.defaultScopeModel[7] = new ModelRendererTurbo(this, 25, 33, this.textureX, this.textureY);
+        this.defaultScopeModel[8] = new ModelRendererTurbo(this, 33, 33, this.textureX, this.textureY);
+        this.defaultScopeModel[9] = new ModelRendererTurbo(this, 41, 33, this.textureX, this.textureY);
+        this.defaultScopeModel[0].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f, -0.2f, -0.45f, -0.1f);
+        this.defaultScopeModel[0].setRotationPoint(5.6f, -4.15f, -0.5f);
+        this.defaultScopeModel[1].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f);
+        this.defaultScopeModel[1].setRotationPoint(5.6f, -4.3f, -0.2f);
+        this.defaultScopeModel[2].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f, -0.25f, -0.3f, -0.45f);
+        this.defaultScopeModel[2].setRotationPoint(5.6f, -4.3f, -0.8f);
+        this.defaultScopeModel[3].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f, -0.45f, -0.3f, -0.47f);
+        this.defaultScopeModel[3].setRotationPoint(5.6f, -4.25f, -0.5f);
+        this.defaultScopeModel[4].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f);
+        this.defaultScopeModel[4].setRotationPoint(0.4f, -4.3f, -0.2f);
+        this.defaultScopeModel[5].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f, -0.2f, -0.3f, -0.45f);
+        this.defaultScopeModel[5].setRotationPoint(0.4f, -4.3f, -0.8f);
+        this.defaultScopeModel[6].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f, -0.2f, -0.45f, -0.25f);
+        this.defaultScopeModel[6].setRotationPoint(0.4f, -4.15f, -0.5f);
+        this.defaultScopeModel[7].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f);
+        this.defaultScopeModel[7].setRotationPoint(0.4f, -4.3f, -0.68f);
+        this.defaultScopeModel[8].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f);
+        this.defaultScopeModel[8].setRotationPoint(0.4f, -4.3f, -0.32f);
+        this.defaultScopeModel[9].addShapeBox(0.0f, 0.0f, 0.0f, 1, 1, 1, 0.0f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f, -0.45f, -0.3f, -0.4f);
+        this.defaultScopeModel[9].setRotationPoint(0.4f, -4.15f, -0.5f);
+        this.ammoModel = new ModelRendererTurbo[3];
+        this.ammoModel[0] = new ModelRendererTurbo(this, 41, 9, this.textureX, this.textureY);
+        this.ammoModel[1] = new ModelRendererTurbo(this, 49, 9, this.textureX, this.textureY);
+        this.ammoModel[2] = new ModelRendererTurbo(this, 57, 9, this.textureX, this.textureY);
+        this.ammoModel[0].addShapeBox(3.0f, -2.4f, -0.5f, 2, 2, 1, 0.0f, -0.2f, -0.4f, -0.1f, -0.5f, -0.4f, -0.1f, -0.5f, -0.4f, -0.1f, -0.2f, -0.4f, -0.1f, -0.4f, 0.0f, -0.1f, -0.25f, 0.0f, -0.1f, -0.25f, 0.0f, -0.1f, -0.4f, 0.0f, -0.1f);
+        this.ammoModel[0].setRotationPoint(0.0f, 0.0f, 0.0f);
+        this.ammoModel[1].addShapeBox(3.25f, -0.8f, -0.5f, 2, 2, 1, 0.0f, -0.15f, -0.4f, -0.1f, -0.5f, -0.4f, -0.1f, -0.5f, -0.4f, -0.1f, -0.15f, -0.4f, -0.1f, -0.7f, 0.0f, -0.1f, 0.1f, 0.0f, -0.1f, 0.1f, 0.0f, -0.1f, -0.7f, 0.0f, -0.1f);
+        this.ammoModel[1].setRotationPoint(0.0f, 0.0f, 0.0f);
+        this.ammoModel[2].addShapeBox(3.8f, 0.8f, -0.5f, 2, 1, 1, 0.0f, -0.15f, -0.4f, -0.1f, -0.45f, -0.4f, -0.1f, -0.45f, -0.4f, -0.1f, -0.15f, -0.4f, -0.1f, -0.7f, 0.4f, -0.1f, -0.2f, -0.3f, -0.1f, -0.2f, -0.3f, -0.1f, -0.7f, 0.4f, -0.1f);
+        this.ammoModel[2].setRotationPoint(0.0f, 0.0f, 0.0f);
+        this.barrelAttachPoint = new Vector3f(0.5f, 0.26875f, 0.0f);
+        this.scopeAttachPoint = new Vector3f(0.1875f, 0.3125f, 0.0f);
+        this.gunSlideDistance = 0.25f;
+        this.animationType = EnumAnimationType.BOTTOM_CLIP;
+        this.translateAll(0.0f, -2.5f, 0.0f);
+        this.hasFlash = false;
+        this.hasArms = true;
+        this.leftArmPos = new Vector3f(-0.15f, -0.35f, 0.0f);
+        this.leftArmRot = new Vector3f(90.0f, 45.0f, 0.0f);
+        this.leftArmReloadPos = new Vector3f(-0.15, -0.3499999940395355, 0.0);
+        this.leftArmReloadRot = new Vector3f(90.0f, 45.0f, 0.0f);
+        this.rightArmPos = new Vector3f(0.4f, -0.5f, 0.0f);
+        this.rightArmRot = new Vector3f(0.0f, 0.0f, -90.0f);
+        this.rightArmReloadPos = new Vector3f(0.4f, -0.5f, 0.0f);
+        this.rightArmReloadRot = new Vector3f(0.0f, 0.0f, -90.0f);
+        this.rightHandAmmo = false;
+        this.leftHandAmmo = true;
+        this.flipAll();
+    }
+}
+
